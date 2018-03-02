@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Main Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+
+
+    </script>
+    <style>
+        /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+
+        .row {
+            margin-top: 20px;
+        }
+        p {
+            margin-left: 12px;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+        .main-text{
+            text-align: center;
+            margin-top: 100px;
+        }
+        .row.content {
+            height: 1500px;
+            background-color: #f1f1f1;
+            
+        }
+        body{
+            background-color: #f1f1f1;
+        }
+
+        /* Set gray background color and 100% height */
+
+        .sidenav {
+            background-color: #f1f1f1;
+            height: 100%;
+            margin-top: 80px;
+        }
+
+
+
+        .mypanel{
+            background-color: rgb(0, 82, 136);
+            color:#f1f1f1;
+           
+        }
+        .main {
+            padding: 25px;
+            background-color: #f1f1f1;
+        }
+
+        .white{
+            background-color: #f1f1f1;
+            width: 100%;
+            height: 200px;
+            color:#555
+        }
+
+        /* Set black background color, white text and some padding */
+
+        footer {
+            background-color: #555;
+            color: white;
+            padding: 15px;
+        }
+
+        li {
+            margin-top: 20px;
+        }
+
+        /* On small screens, set height to 'auto' for sidenav and grid */
+
+        @media screen and (max-width: 767px) {
+            .sidenav {
+                height: auto;
+
+                padding: 30px;
+            }
+            .row.content {
+                height: auto;
+                background-color: #f1f1f1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row content">
+            <div class="col-sm-3 sidenav">
+                    <ul class="nav nav-pills nav-stacked">
+                            <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"> <h5>Home</h5></a>
+                                </li>
+                <li>
+                    <p>Lectures:</p>
+                </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="first-tab" data-toggle="tab" href="#WDC" role="tab" aria-controls="home" aria-selected="true">Web Development Course</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="second-tab" data-toggle="tab" href="#DES" role="tab" aria-controls="profile" aria-selected="false">Design and Evaluation of Ubiquitous Technology in Sports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Making Virtual and Augmented Reality great again!</a>
+                    </li>
+                </ul>
+                <br>
+            </div>
+
+      
+
+            <div class="tab-content col-sm-9" id="myTabContent">
+
+                    <div class="tab-pane fade in active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+                        <div class="main-text">
+                            <h5>
+                                Hello (Username).
+                                Please select your Lecture on the left side.
+                            </h5>
+                        </div>
+
+                    </div>
+
+
+                <div class="tab-pane fade" id="WDC" role="tabpanel" aria-labelledby="first-tab">
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3 id="selectedLecture">Web Development Course</h3>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                            <div class="col-sm-6">
+                                <div class="panel panel-primary">
+                                    <div class="panel-heading">Live Chat</div>
+                                    <div class="panel-body">
+                                        <div class="col-sm-3"></div>
+                                        <div class="col-sm-6 white"> Hier entsteht der LiveChat</div>
+                                        <div class="col-sm-3"></div>
+                                    </div>
+                                    <div class="panel-footer"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="panel panel-primary">
+                                    <div class="panel-heading">Q&A Section</div>
+                                    <div class="panel-body">
+                                            <div class="col-sm-3"></div>
+                                            <div class="col-sm-6 white"> Hier entsteht die Q&A section</div>
+                                            <div class="col-sm-3"></div>
+                                    </div>
+                                    <div class="panel-footer"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">mood visualization</div>
+                                        <div class="panel-body">
+                                                <div class="col-sm-3"></div>
+                                                <div class="col-sm-6 white"> Hier entsteht die mood Visualization</div>
+                                                <div class="col-sm-3"></div>
+                                        </div>
+                                        <div class="panel-footer"></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">live stream</div>
+                                        <div class="panel-body">
+                                                <div class="col-sm-3"></div>
+                                                <div class="col-sm-6 white"> Hier entsteht der Live Stream</div>
+                                                <div class="col-sm-3"></div>
+                                        </div>
+                                        <div class="panel-footer"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                </div>
+
+                <div class="tab-pane fade" id="DES" role="tabpanel" aria-labelledby="second-tab">
+                              
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3 id="selectedLecture">Design and Evaluation of Ubiquitous Technology in Sports</h3>
+                        </div>
+                    </div>
+
+                                <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="panel panel-primary">
+                                                <div class="panel-heading">Live Chat</div>
+                                                <div class="panel-body">
+                                                    <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                                                </div>
+                                                <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="panel panel-primary">
+                                                <div class="panel-heading">Q&A Section</div>
+                                                <div class="panel-body">
+                                                    <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                                                </div>
+                                                <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="panel panel-primary">
+                                                    <div class="panel-heading">mood visualization</div>
+                                                    <div class="panel-body">
+                                                        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                                                    </div>
+                                                    <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="panel panel-primary">
+                                                    <div class="panel-heading">live stream</div>
+                                                    <div class="panel-body">
+                                                        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                                                    </div>
+                                                    <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                        
+                            </div>
+    
+                            
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3 id="selectedLecture">Making Virtual and Augmented Reality great again!</h3>
+                        </div>
+                    </div>
+
+                            <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="panel panel-primary">
+                                            <div class="panel-heading">Live Chat</div>
+                                            <div class="panel-body">
+                                                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                                            </div>
+                                            <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="panel mypanel">
+                                            <div class="panel-heading">Q&A Section</div>
+                                            <div class="panel-body">
+                                                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                                            </div>
+                                            <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="panel mypanel">
+                                                <div class="panel-heading">mood visualization</div>
+                                                <div class="panel-body">
+                                                    <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                                                </div>
+                                                <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="panel mypanel">
+                                                <div class="panel-heading">live stream </div>
+                                                <div class="panel-body">
+                                                    <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                                                </div>
+                                                <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                </div>
+
+
+               
+
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+
+
+</body>
+
+</html>
